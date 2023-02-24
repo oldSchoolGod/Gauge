@@ -1,0 +1,12 @@
+<template>
+   
+        <div  style="width:50px; height:50px;">
+         <div style="position:relative ;left: 52.3%; top:19px; margin-top:5px;"><p style="font-size: 7px;">81</p></div>
+        <div class="chart slds-var-m-around_medium" lwc:dom="manual"></div>
+    </div>
+        <template if:true={error}>
+            <c-error-panel errors={error}></c-error-panel>
+        </template>
+   
+   
+</template>
